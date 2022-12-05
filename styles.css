@@ -1,0 +1,163 @@
+*{
+    font-family: sans-serif;
+}
+
+
+html{
+    height: 100vh;
+    min-width: 1258px;
+}
+
+.bg-image{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.in-put{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 40px;
+    margin-bottom:px;
+    border: 1px solid rgba(128, 128, 128, 0.466);
+    border-radius: 50px;
+    position: static;
+    
+}
+
+.sign-head{
+    margin-bottom: 5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+.fa-facebook-f,.fa-twitter, .fa-google, .fa-linkedin-in{
+    margin-right: 9px;
+    font-size:x-large;
+    padding: 15px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 50%;
+}
+
+.fa-facebook-f:hover,.fa-twitter:hover, .fa-google:hover, .fa-linkedin-in:hover{
+    color: white;
+    background-color: rgba(8,80,248,255);
+    text-shadow: 0px 0px 10px white;
+}
+
+.plat-icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+.w-75{
+    width: 73% !important;
+}
+
+.sign-btn{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(8,80,248,255);
+    border: 0px solid;
+    margin-left: 40px;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+    padding: 5px 45px;
+}
+
+.sign-btn:hover{
+    color: white;
+    background-color: rgb(0, 0, 165);
+    text-shadow: 0px 0px 5px white;
+}
+
+.option-text{
+    text-align: center;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.user-name{
+    margin-bottom: 3.5em;
+    height: 2.5em;
+}
+
+.user-email{
+    margin-bottom: 3.5em;
+    height: 2.5em;
+}
+
+.user-pswrd{
+    margin-bottom: 2em;
+    height: 2.5em;
+}
+
+.fa-user{
+    position: absolute;
+    top: 9.7rem;
+    left: 12.5rem;
+}
+
+.fa-envelope{
+    position: absolute;
+    top: 15.7rem;
+    left: 12.5rem;
+}
+
+.fa-lock{
+    position: absolute;
+    top: 21.7rem;
+    left: 12.5rem;
+}
+
+@media screen and (max-width: 575px) {
+    html{
+        background-color: rgb(0, 0, 0);
+    }
+
+    body{
+        background-color: rgb(30, 30, 31);
+    }
+    
+    .container{
+        color: blue;
+        text-shadow: 0px 0px 3px white;
+        background-color: rgb(30, 30, 31);
+    }
+
+    .fa-facebook-f,.fa-twitter, .fa-google, .fa-linkedin-in{
+        background-color: white;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    html{
+        background-color: rgba(8,80,248,255);
+    }
+
+    body{
+        background-color: rgb(52, 52, 92);
+    }
+    
+    .container{
+        color: rgba(8,80,248,255);
+        text-shadow: 0px 0px 3px white;
+        background-color: rgb(52, 52, 92);
+    }
+
+    .fa-facebook-f,.fa-twitter, .fa-google, .fa-linkedin-in{
+        background-color: white;
+    }
+
+    .fa-user, .fa-envelope, .fa-lock{
+        color: rgb(52, 52, 92);
+        text-shadow: none;
+    }
+
+}
